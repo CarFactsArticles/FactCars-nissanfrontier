@@ -9,8 +9,15 @@ html {
 }
 
 .front-img{
-  margin: auto;
+  margin: 0 auto;
+  display: block;
   width: 30em;
+
+}
+
+img{
+  height: auto;
+  max-width: 100%;
 }
 
 .description{
@@ -25,6 +32,9 @@ html {
 
 .oldfr{
   margin: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
   width: 30em;
   text-align: center;
   font-family: sans-serif;
